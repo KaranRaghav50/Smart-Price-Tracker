@@ -14,6 +14,7 @@ export default async function Home() {
 
   const products = user ? await getProducts() : [];
 
+  
   const FEATURES = [
     {
       icon: Rabbit,
